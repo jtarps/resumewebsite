@@ -1,0 +1,54 @@
+/* body → Sets font, colors, and background. */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: o;
+    padding: 0;
+    background: #f4f4f4;
+    color: #333;
+}
+/* header → Styles the top banner with your name. */
+header {
+    background: #0073e6;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    margin: 0;
+}
+/* section → Adds white cards with rounded corners. */
+section {
+    width: 80%;
+    margin: 20px auto;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.project {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 15px;
+}
+/* project img → Styles project images to be clean. */
+.project img {
+    width: 100px;
+    height: auto;
+    border-radius: 5px;
+}
+
+.project a {
+    text-decoration: none;
+    color: #0073e6;
+    font-weight: bold;
+}
+/* footer → Styles the contact info at the bottom. */
+footer {
+    text-align: center;
+    padding: 10px;
+    background: #333;
+    color: white;
+}
